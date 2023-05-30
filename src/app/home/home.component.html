@@ -1,4 +1,10 @@
 <div class="test">
   <p>Home component !123</p>
+  <h2>Hello you with {{name}} </h2>
+  <input value="{{name}}"/>
+  <br>
+  <input [value]="name" title="this is {{name}}"/>
+  <br>
+  <input [value]="name" [title]="'this is ' + name"/>
 </div>
 
